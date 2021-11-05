@@ -1,0 +1,11 @@
+channels:
+  - bioconda
+  - conda-forge
+  - bioconda
+dependencies:
+  - kraken2
+  - flye
+  - minimap2
+  - seqtk
+  - bracken
+  - racon
