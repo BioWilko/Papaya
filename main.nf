@@ -11,6 +11,8 @@ def printHelp() {
 
 if(!params.runpath) error "No filepath to run directory supplied with --runpath"
 
+if(!params.outdir) error "No output directory supplied with --outdir"
+
 if(params.help) {
     printHelp()
     exit 0
